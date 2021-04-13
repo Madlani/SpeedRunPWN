@@ -3,7 +3,6 @@ p = process ("./chall_06")
 context.arch = "amd64" 
 elf = ELF("./chall_06") 
 
-
 resp = p.recv()
 resp
 
