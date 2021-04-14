@@ -4,7 +4,7 @@ context.arch = "amd64"
 elf = ELF("./chall_05") 
 
 p.recv()
-p.sendline("andyrulz")
+p.sendline("junk")
 resp = p.recv()
 resp
 
