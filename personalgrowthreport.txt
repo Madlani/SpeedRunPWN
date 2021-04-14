@@ -1,0 +1,17 @@
+I think that having the 'whip cracking' is useful for getting us back on track definitely, although it was kind of
+stressful trying to play that catch up game after being lost for a while. This semester's just been extra tough,
+and is genuinely the first semester that I've "fallen behind" in a class, but I guess that's just life and I'm
+glad to kind of be slowly but surely catching up. It took me a while to figure out how to go about the 
+exploits at first, since I was still unfamiliar with the overall concept of pwning, but I do think that having
+a specific example that was worked through thoroughly maybe posted on the website would have been beneficial. There
+was a few challenges went over in class, but I think that while I was lost, I didn't gain as much as I could have during
+these explanations since it was a little too fast paced rather than an example on the website. I think that
+there was a lot of material packed into these lectures, which is beneficial if you can pick up on stuff quickly,
+but I think part of the reason for the 'black boxes' not asking as many questions is because we got lost on elementary
+stuff and weren't comfortable with asking these questions (but in retrospect, asking these questions is the easiest
+way to clear up this stuff - you rock when having 1:1 conversations with students). I think that for future semesters,
+it would be useful to present certain concepts in class/post them on your website, and then provide a step by step
+example for us to really understand/reference while doing the future work! I also know that you're not the biggest fan of
+deadlines and assigning them to assignments, but I think that if they're done correctly/have a decent amount of work
+that's due rather than a huge assignment like a project, it can be used as a really good checkpoint with students
+to see how they're progressing.
