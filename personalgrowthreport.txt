@@ -15,3 +15,8 @@ example for us to really understand/reference while doing the future work! I als
 deadlines and assigning them to assignments, but I think that if they're done correctly/have a decent amount of work
 that's due rather than a huge assignment like a project, it can be used as a really good checkpoint with students
 to see how they're progressing.
+
+
+**I used the write ups for most of these problems, but didn't rely very heavily on it besides for
+the last 2. I think I would have been able to eventually get the other problems without write ups, but it
+would take me a lot more time and I'd probably need a hint when I get lost!
